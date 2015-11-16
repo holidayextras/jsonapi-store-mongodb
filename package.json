@@ -1,0 +1,31 @@
+{
+  "name": "jsonapi-store-mongodb",
+  "version": "0.0.1",
+  "description": "MongoDB data store for jsonapi-server.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/holidayextras/jsonapi-store-mongodb.git"
+  },
+  "keywords": [
+    "json:api",
+    "jsonapi",
+    "persistence",
+    "store",
+    "mongodb",
+    "mongo"
+  ],
+  "author": "Pedro Romano <pedro.romano@holidayextras.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/holidayextras/jsonapi-store-mongodb/issues"
+  },
+  "homepage": "https://github.com/holidayextras/jsonapi-store-mongodb",
+  "dependencies": {
+    "lodash.clone": "^3.0.3",
+    "mongodb": "^2.0.48"
+  }
+}
