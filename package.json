@@ -25,7 +25,7 @@
   },
   "homepage": "https://github.com/holidayextras/jsonapi-store-mongodb",
   "dependencies": {
-    "lodash.clone": "^3.0.3",
-    "mongodb": "^2.0.48"
+    "lodash.clone": "3.0.3",
+    "mongodb": "2.0.48"
   }
 }
