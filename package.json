@@ -2,10 +2,7 @@
   "name": "jsonapi-store-mongodb",
   "version": "0.0.1",
   "description": "MongoDB data store for jsonapi-server.",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
+  "main": "lib/mongoHandler.js",
   "repository": {
     "type": "git",
     "url": "https://github.com/holidayextras/jsonapi-store-mongodb.git"
@@ -24,8 +21,40 @@
     "url": "https://github.com/holidayextras/jsonapi-store-mongodb/issues"
   },
   "homepage": "https://github.com/holidayextras/jsonapi-store-mongodb",
+  "engines": {
+    "node": "*"
+  },
   "dependencies": {
-    "lodash.clone": "^3.0.3",
-    "mongodb": "^2.0.48"
+    "lodash.clone": "3.0.3",
+    "mongodb": "2.0.48"
+  },
+  "devDependencies": {
+    "mocha": "2.2.5",
+    "mysql": "2.9.0",
+    "eslint": "0.24.1",
+    "blanket": "1.1.7",
+    "mocha-lcov-reporter": "0.0.2",
+    "coveralls": "2.11.2",
+    "plato": "1.5.0",
+    "mocha-performance": "0.1.0",
+    "jsonapi-server": "0.16.0"
+  },
+  "scripts": {
+    "test": "./node_modules/mocha/bin/mocha --timeout 20000 -R spec ./test/*.js",
+    "start": "node example/server.js",
+    "coveralls": "./node_modules/mocha/bin/mocha --require blanket --reporter mocha-lcov-reporter ./test/*.js | ./node_modules/coveralls/bin/coveralls.js",
+    "coverage": "./node_modules/mocha/bin/mocha --timeout 20000 --require blanket --reporter html-cov ./test/*.js > coverage.html",
+    "complexity": "./node_modules/plato/bin/plato -r -d complexity lib",
+    "performance": "node --allow-natives-syntax --harmony ./node_modules/mocha/bin/_mocha --reporter mocha-performance ./test/*.js",
+    "lint": "./node_modules/.bin/eslint ./example/*.js ./lib/* ./test/*.js --quiet && echo '✔ All good!'"
+  },
+  "config": {
+    "blanket": {
+      "pattern": ".js",
+      "data-cover-never": [
+        "node_modules",
+        "test"
+      ]
+    }
   }
 }
