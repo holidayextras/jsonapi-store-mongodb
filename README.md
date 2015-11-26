@@ -7,7 +7,7 @@
 
 # jsonapi-store-mongodb
 
-`jsonapi-server-mongodb` is a MongoDB backed data store for [`jsonapi-server`](https://github.com/holidayextras/jsonapi-server).
+`jsonapi-store-mongodb` is a MongoDB backed data store for [`jsonapi-server`](https://github.com/holidayextras/jsonapi-server).
 
 This project conforms to the specification laid out in the [jsonapi-server handler documentation](https://github.com/holidayextras/jsonapi-server/blob/master/documentation/handlers.md).
 
@@ -19,7 +19,7 @@ var MongoStore = require("jsonapi-store-mongodb");
 jsonApi.define({
   resource: "comments",
   handlers: new MongoStore({
-    url: "url: 'mongodb://localhost:27017/jsonapi",
+    url: "mongodb://localhost:27017/jsonapi",
   })
 });
 ```
