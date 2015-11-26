@@ -25,6 +25,7 @@
     "node": "*"
   },
   "dependencies": {
+    "async": "1.5.0",
     "lodash.clone": "3.0.3",
     "mongodb": "2.0.48"
   },
