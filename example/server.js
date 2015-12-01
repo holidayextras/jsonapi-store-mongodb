@@ -23,4 +23,4 @@ setTimeout(function() {
   async.map(instances, function(dbStore, callback) {
     dbStore.populate(callback);
   });
-}, 5000);
+}, 10000);
