@@ -29,5 +29,5 @@ before(function(done) {
     async.map(instances, function(dbStore, callback) {
       dbStore.populate(callback);
     }, done);
-  }, 2000);
+  }, 5000);
 });
