@@ -28,7 +28,4 @@ jsonApi.define({
 
  * Search, Find, Create, Delete, Update
  * Efficient lookups via appropriate indexes
-
-### To do
-
- * Filtering happens at the database layer
+ * Database layer filtering, pagination and sorting
