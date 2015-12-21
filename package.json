@@ -1,6 +1,6 @@
 {
   "name": "jsonapi-store-mongodb",
-  "version": "0.0.1-alpha",
+  "version": "1.0.0",
   "description": "MongoDB data store for jsonapi-server.",
   "main": "lib/mongoHandler.js",
   "repository": {
@@ -40,7 +40,7 @@
     "coveralls": "2.11.2",
     "plato": "1.5.0",
     "mocha-performance": "0.1.0",
-    "jsonapi-server": "0.16.0"
+    "jsonapi-server": "1.0.3"
   },
   "scripts": {
     "test": "./node_modules/mocha/bin/mocha --timeout 20000 -R spec ./test/*.js",
