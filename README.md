@@ -29,3 +29,14 @@ jsonApi.define({
  * Search, Find, Create, Delete, Update
  * Efficient lookups via appropriate indexes
  * Database layer filtering, pagination and sorting
+
+### Getting to Production
+
+Getting this data store to production is really simple:
+
+1. Bring up your MongoDB stack.
+2. Create any indexes you may need (this is optional, this module will automatically ensure indexes exist on relationships, however you might want to add an index to an attribute you intend on querying aggressively).
+3. Deploy your code.
+4. Celebrate.
+
+When making schema changes, deploy away and carry on. If the changes aren't backwards compatible, you may want to run a job to ensure all old (existing) records conform to the new schema. If they don't conform to the new schema, they will be dropped by jsonapi-server's validation layer.
