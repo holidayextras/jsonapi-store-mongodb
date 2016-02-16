@@ -1,3 +1,5 @@
+- 2016-02-17 - v1.2.1
+- 2016-02-17 - Improved filtering by non-string attributes
 - 2016-01-21 - v1.2.0
 - 2016-01-21 - Robust MongoDB connection management
 - 2015-12-30 - v1.1.0
