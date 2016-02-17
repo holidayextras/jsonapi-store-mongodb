@@ -1,8 +1,10 @@
-- 2015-06-29 - Initial release
-- 2015-12-21 - Pagination support
-- 2015-12-21 - Sort support
-- 2015-12-21 - v1.0.0
-- 2015-12-30 - Offload queries to Mongo
-- 2015-12-30 - v1.1.0
-- 2016-01-21 - Robust MongoDB connection management
+- 2016-02-17 - v1.2.1
+- 2016-02-17 - Improved filtering by non-string attributes
 - 2016-01-21 - v1.2.0
+- 2016-01-21 - Robust MongoDB connection management
+- 2015-12-30 - v1.1.0
+- 2015-12-30 - Offload queries to Mongo
+- 2015-12-21 - v1.0.0
+- 2015-12-21 - Sort support
+- 2015-12-21 - Pagination support
+- 2015-06-29 - Initial release
