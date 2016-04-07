@@ -1,3 +1,5 @@
+- 2016-04-07 - v1.2.2
+- 2016-04-07 - Error handling when creating a document
 - 2016-02-17 - v1.2.1
 - 2016-02-17 - Improved filtering by non-string attributes
 - 2016-01-21 - v1.2.0
