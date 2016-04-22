@@ -1,3 +1,6 @@
+- 2016-04-22 - v1.3.0
+- 2016-04-22 - Improved index creation
+- 2016-04-22 - Better error handling on .find()
 - 2016-04-07 - v1.2.2
 - 2016-04-07 - Error handling when creating a document
 - 2016-02-17 - v1.2.1
