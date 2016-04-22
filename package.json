@@ -1,6 +1,6 @@
 {
   "name": "jsonapi-store-mongodb",
-  "version": "1.2.2",
+  "version": "1.3.0",
   "description": "MongoDB data store for jsonapi-server.",
   "main": "lib/mongoHandler.js",
   "repository": {
@@ -35,7 +35,7 @@
     "blanket": "1.1.7",
     "coveralls": "2.11.2",
     "eslint": "0.24.1",
-    "jsonapi-server": "1.3.2",
+    "jsonapi-server": "1.4.0",
     "mocha": "2.2.5",
     "mocha-lcov-reporter": "0.0.2",
     "mocha-performance": "0.1.0",
