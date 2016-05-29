@@ -30,12 +30,13 @@
     "joi": "^6.10.1",
     "lodash.omitby": "^4.4.0",
     "mongodb": "^2.1.20",
+    "semver": "^5.1.0"
   },
   "devDependencies": {
-    "jsonapi-server": "1.4.0",
     "blanket": "^1.2.3",
     "coveralls": "^2.11.9",
     "eslint": "^2.11.0",
+    "jsonapi-server": "holidayextras/jsonapi-server#2ba05c6",
     "mocha": "^2.5.3",
     "mocha-lcov-reporter": "^1.2.0",
     "mocha-performance": "^0.1.1",
