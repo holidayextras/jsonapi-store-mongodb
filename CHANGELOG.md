@@ -1,3 +1,5 @@
+- 2016-05-31 - v1.4.0
+- 2016-05-31 - Use latest `jsonapi-server` processed filter
 - 2016-04-22 - v1.3.0
 - 2016-04-22 - Improved index creation
 - 2016-04-22 - Better error handling on .find()
