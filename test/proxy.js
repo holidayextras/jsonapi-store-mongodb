@@ -19,7 +19,9 @@ var fs = require("fs");
 var path = require("path");
 var base = path.join(__dirname, "../node_modules/jsonapi-server/test");
 fs.readdirSync(base).forEach(function(filename) {
-  require(path.join(base, filename));
+  try {
+    require(path.join(base, filename));
+  } catch(e) { }
 });
 
 // Before starting the test suite, load all example resouces, aka
