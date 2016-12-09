@@ -1,3 +1,5 @@
+- 2016-12-09 - v1.5.1
+- 2016-12-09 - Bump all dependencies
 - 2016-06-25 - v1.5.0
 - 2016-06-25 - Create individual indexes for related resources
 - 2016-05-31 - v1.4.0
