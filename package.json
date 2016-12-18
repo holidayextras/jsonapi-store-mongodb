@@ -3,17 +3,25 @@
   "engines": {
     "node": "*"
   }, 
+  "description": "MongoDB data store for jsonapi-server.", 
   "repository": {
     "url": "https://github.com/holidayextras/jsonapi-store-mongodb.git", 
     "type": "git"
   }, 
   "author": "Pedro Romano <pedro.romano@holidayextras.com>", 
-  "homepage": "https://github.com/holidayextras/jsonapi-store-mongodb", 
-  "description": "MongoDB data store for jsonapi-server.", 
+  "config": {
+    "blanket": {
+      "pattern": ".js", 
+      "data-cover-never": [
+        "node_modules", 
+        "test"
+      ]
+    }
+  }, 
   "bugs": {
     "url": "https://github.com/holidayextras/jsonapi-store-mongodb/issues"
   }, 
-  "version": "0.0.12", 
+  "version": "0.0.16", 
   "dependencies": {
     "semver": "^5.1.0", 
     "mongodb": "^2.1.20", 
@@ -51,14 +59,6 @@
     "jsonapi-server": "^1.10.0"
   }, 
   "main": "lib/mongoHandler.js", 
-  "config": {
-    "blanket": {
-      "pattern": ".js", 
-      "data-cover-never": [
-        "node_modules", 
-        "test"
-      ]
-    }
-  }, 
+  "homepage": "https://github.com/holidayextras/jsonapi-store-mongodb", 
   "name": "jsonapi-store-mongodb"
 }
