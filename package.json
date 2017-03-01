@@ -8,20 +8,12 @@
     "type": "git"
   }, 
   "author": "Pedro Romano <pedro.romano@holidayextras.com>", 
-  "config": {
-    "blanket": {
-      "pattern": ".js", 
-      "data-cover-never": [
-        "node_modules", 
-        "test"
-      ]
-    }
-  }, 
+  "homepage": "https://github.com/holidayextras/jsonapi-store-mongodb", 
+  "description": "MongoDB data store for jsonapi-server.", 
   "bugs": {
     "url": "https://github.com/holidayextras/jsonapi-store-mongodb/issues"
   }, 
-  "name": "jsonapi-store-mongodb", 
-  "version": "0.1.18-megawin-sim", 
+  "version": "0.2.2-megawin-sim", 
   "dependencies": {
     "semver": "^5.1.0", 
     "mongodb": "^2.1.20", 
@@ -59,6 +51,14 @@
     "jsonapi-server": "^1.10.0"
   }, 
   "main": "lib/mongoHandler.js", 
-  "homepage": "https://github.com/holidayextras/jsonapi-store-mongodb", 
-  "description": "MongoDB data store for jsonapi-server."
+  "config": {
+    "blanket": {
+      "pattern": ".js", 
+      "data-cover-never": [
+        "node_modules", 
+        "test"
+      ]
+    }
+  }, 
+  "name": "jsonapi-store-mongodb"
 }
