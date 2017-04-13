@@ -22,6 +22,7 @@
     "debug": "^2.2.0", 
     "async": "^1.5.2"
   }, 
+
   "scripts": {
     "coveralls": "./node_modules/mocha/bin/mocha --timeout 20000 --require blanket --reporter mocha-lcov-reporter ./test/*.js | ./node_modules/coveralls/bin/coveralls.js", 
     "lint": "./node_modules/.bin/eslint ./example/*.js ./lib/* ./test/*.js --quiet && echo '\u2714 All good!'", 
