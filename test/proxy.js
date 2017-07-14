@@ -18,9 +18,17 @@ module.children[2].exports = function() {
 var fs = require("fs");
 var path = require("path");
 var base = path.join(__dirname, "../node_modules/jsonapi-server/test");
+
 fs.readdirSync(base).forEach(function(filename) {
   try {
-    require(path.join(base, filename));
+    var filePath = path.join(base, filename)
+
+    // If the current file we're attempting to read is a directory, don't require it.
+    if (fs.lstatSync(filePath).isDirectory()) {
+
+    } else {
+      require(filePath)
+    }
   } catch(e) { }
 });
 

@@ -2,7 +2,8 @@ language: node_js
 services:
   - mongodb
 node_js:
-  - "6"
+  - 4
+  - 6
 script: "npm run $TEST_STEP"
 env:
   matrix:
