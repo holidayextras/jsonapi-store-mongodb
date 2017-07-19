@@ -36,7 +36,7 @@
     "blanket": "1.2.3",
     "coveralls": "2.13.1",
     "eslint": "4.2.0",
-    "jsonapi-server": "3.0.2",
+    "jsonapi-server": "3.0.3",
     "lokka": "1.7.0",
     "lokka-transport-http": "1.6.1",
     "mocha": "3.4.2",
