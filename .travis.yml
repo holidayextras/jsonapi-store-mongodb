@@ -6,6 +6,7 @@ services:
 node_js:
   - 4
   - 6
+  - 8
 script: npm run ci
 notifications:
   email: false
