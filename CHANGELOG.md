@@ -1,3 +1,9 @@
+- 2017-09-23 - v2.0.0
+- 2017-09-23 - Bump all dependencies
+- 2017-09-23 - Support Node.js 8.
+- 2017-09-23 - Only Node.js >= 4.5 is now supported.
+- 2017-09-23 - Support latest `jsonapi-server`.
+- 2017-09-23 - Prevent crash when `attributeConfig` is `null` or `undefined`
 - 2016-12-09 - v1.5.1
 - 2016-12-09 - Bump all dependencies
 - 2016-06-25 - v1.5.0
