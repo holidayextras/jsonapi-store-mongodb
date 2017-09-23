@@ -4,10 +4,6 @@ services:
 node_js:
   - 4
   - 6
-script: "npm run $TEST_STEP"
-env:
-  matrix:
-    - TEST_STEP=lint
-    - TEST_STEP=test
+script: npm run ci
 notifications:
   email: false
