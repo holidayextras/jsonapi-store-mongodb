@@ -18,10 +18,13 @@ module.children[2].exports = function() {
 var fs = require("fs");
 var path = require("path");
 var base = path.join(__dirname, "../node_modules/jsonapi-server/test");
+
 fs.readdirSync(base).forEach(function(filename) {
-  try {
-    require(path.join(base, filename));
-  } catch(e) { }
+  var filePath = path.join(base, filename)
+
+  if (!fs.lstatSync(filePath).isDirectory()) {
+    require(filePath)
+  }
 });
 
 // Before starting the test suite, load all example resouces, aka

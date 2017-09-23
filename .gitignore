@@ -1,4 +1,6 @@
-node_modules
-coverage.html
+*.tgz
 complexity
+coverage.html
+jsonapi-server.cpuprofile
+node_modules
 npm-debug.log
