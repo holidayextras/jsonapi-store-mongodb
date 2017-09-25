@@ -27,7 +27,7 @@
   "dependencies": {
     "async": "2.5.0",
     "debug": "3.0.1",
-    "joi": "11.0.3",
+    "joi": "11.1.1",
     "lodash.omitby": "4.6.0",
     "mongodb": "2.2.31",
     "semver": "5.4.1"
