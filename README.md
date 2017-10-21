@@ -7,6 +7,8 @@
 
 # jsonapi-store-mongodb
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/holidayextras/jsonapi-store-mongodb.svg)](https://greenkeeper.io/)
+
 `jsonapi-store-mongodb` is a MongoDB backed data store for [`jsonapi-server`](https://github.com/holidayextras/jsonapi-server).
 
 This project conforms to the specification laid out in the [jsonapi-server handler documentation](https://github.com/holidayextras/jsonapi-server/blob/master/documentation/handlers.md).
