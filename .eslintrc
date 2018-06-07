@@ -1,12 +1,14 @@
 {
-  "globals": {
-  },
-  "env": {
-    "node": true,
-    "mocha": true
-  },
+  "extends": "itp-base",
+  "plugins": [
+    "chai-friendly"
+  ],
   "rules": {
+    "arrow-parens": 0,
+    "curly": [2, "multi-line"],
+    "space-before-function-paren": 0,
     "no-underscore-dangle": [ 0 ],
-    "curly": [2, "multi-line"]
+    "no-unused-expressions": 0,
+    "chai-friendly/no-unused-expressions": 2
   }
 }
