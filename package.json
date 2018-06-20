@@ -1,6 +1,6 @@
 {
   "name": "jsonapi-store-mongodb",
-  "version": "3.1.4",
+  "version": "3.1.5",
   "description": "MongoDB data store for jsonapi-server.",
   "main": "lib/mongoHandler.js",
   "repository": {
