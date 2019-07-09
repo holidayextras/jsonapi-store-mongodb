@@ -1,5 +1,5 @@
 {
-  "name": "jsonapi-store-mongodb",
+  "name": "@dcp/jsonapi-store-mongodb",
   "version": "2.0.0",
   "description": "MongoDB data store for jsonapi-server.",
   "main": "lib/mongoHandler.js",
@@ -30,6 +30,7 @@
     "joi": "11.1.1",
     "lodash.omitby": "4.6.0",
     "mongodb": "2.2.31",
+    "retry": "^0.12.0",
     "semver": "5.4.1"
   },
   "devDependencies": {

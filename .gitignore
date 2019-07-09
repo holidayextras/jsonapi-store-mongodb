@@ -4,3 +4,4 @@ coverage.html
 jsonapi-server.cpuprofile
 node_modules
 npm-debug.log
+.npmrc
